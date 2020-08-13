@@ -55,9 +55,9 @@ $(".polaroid-trans-4").on("mouseenter", function(){
 $(".polaroid-trans-1").mouseenter(function() {
     $(".polaroid-trans-1").css("transform", "scale(1.0)");
     $(".polaroid-trans-1").css("box-shadow", "1rem 1rem 1rem 1rem rgba(84, 84, 84, .5)");
-    $(".polaroid-trans-2").css("transform", "translate(50px, -50px) rotate(-4deg)");
-    $(".polaroid-trans-3").css("transform", "translate(-50px, 50px) rotate(7deg)");
-    $(".polaroid-trans-4").css("transform", "translate(50px, 50px) rotate(-10deg)");
+    $(".polaroid-trans-2").css("transform", "translate(50px, -50px) rotate(-4deg) scale(.9)");
+    $(".polaroid-trans-3").css("transform", "translate(-50px, 50px) rotate(7deg) scale(.9)");
+    $(".polaroid-trans-4").css("transform", "translate(50px, 50px) rotate(-10deg) scale(.9)");
 });
 
 $(".polaroid-trans-1").mouseleave(function() {
@@ -72,9 +72,9 @@ $(".polaroid-trans-1").mouseleave(function() {
 $(".polaroid-trans-2").mouseenter(function() {
     $(".polaroid-trans-2").css("transform", "scale(1.0)");
     $(".polaroid-trans-2").css("box-shadow", "1rem 1rem 1rem 1rem rgba(84, 84, 84, .5)");
-    $(".polaroid-trans-1").css("transform", "translate(-50px, -50px) rotate(16deg)");
-    $(".polaroid-trans-3").css("transform", "translate(0px, 50px) rotate(3deg)");
-    $(".polaroid-trans-4").css("transform", "translate(50px, 50px) rotate(-10deg)");
+    $(".polaroid-trans-1").css("transform", "translate(-50px, -50px) rotate(16deg) scale(.9)");
+    $(".polaroid-trans-3").css("transform", "translate(0px, 50px) rotate(3deg) scale(.9)");
+    $(".polaroid-trans-4").css("transform", "translate(50px, 50px) rotate(-10deg) scale(.9)");
 
 });
 
@@ -91,9 +91,9 @@ $(".polaroid-trans-2").mouseleave(function() {
 $(".polaroid-trans-3").mouseenter(function() {
     $(".polaroid-trans-3").css("transform", "scale(1.0)");
     $(".polaroid-trans-3").css("box-shadow", "1rem 1rem 1rem 1rem rgba(84, 84, 84, .5)");
-    $(".polaroid-trans-1").css("transform", "translate(-50px, -50px) rotate(16deg)");
-    $(".polaroid-trans-2").css("transform", "translate(0px, -50px) rotate(-3deg)");
-    $(".polaroid-trans-4").css("transform", "translate(50px, 50px) rotate(-10deg)");
+    $(".polaroid-trans-1").css("transform", "translate(-50px, -50px) rotate(16deg) scale(.9)");
+    $(".polaroid-trans-2").css("transform", "translate(0px, -50px) rotate(-3deg) scale(.9)");
+    $(".polaroid-trans-4").css("transform", "translate(50px, 50px) rotate(-10deg) scale(.9)");
 
 });
 
@@ -109,9 +109,9 @@ $(".polaroid-trans-3").mouseleave(function() {
 $(".polaroid-trans-4").mouseenter(function() {
     $(".polaroid-trans-4").css("transform", "scale(1.0)");
     $(".polaroid-trans-4").css("box-shadow", "1rem 1rem 1rem 1rem rgba(84, 84, 84, .5)");
-    $(".polaroid-trans-1").css("transform", "translate(-50px,-50px) rotate(16deg)");
-    $(".polaroid-trans-2").css("transform", "translate(-50px, -50px) rotate(-4deg)");
-    $(".polaroid-trans-3").css("transform", "translate(-50px, -50px) rotate(7deg)");
+    $(".polaroid-trans-1").css("transform", "translate(-50px,-50px) rotate(16deg) scale(.9)");
+    $(".polaroid-trans-2").css("transform", "translate(-50px, -50px) rotate(-4deg) scale(.9)");
+    $(".polaroid-trans-3").css("transform", "translate(-50px, -50px) rotate(7deg) scale(.9)");
 });
 
 $(".polaroid-trans-4").mouseleave(function() {
