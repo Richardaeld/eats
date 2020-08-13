@@ -48,7 +48,6 @@ h2 {
     position: relative;
     top: 3rem;
     margin-top: 2rem;
-    border: solid 1px #rgb(84, 84, 84);
     background-color: #fff;
     padding-bottom: 2.5rem;
     text-align: center;
@@ -60,7 +59,7 @@ h2 {
     background-image: url("../images/hero-background.jpg");
     background-position: center;
     background-repeat: repeat;
-    height: 40rem;
+    min-height: 40rem;
 }
 
 .polaroid-trans-1{
@@ -69,12 +68,13 @@ h2 {
 }
 
 .polaroid-trans-2{
+    position: relative;
     transform: rotate(-4deg) scale(.9);
     z-index: 1;
+    top: -1rem;
 }
 
 .polaroid-trans-3{
-    position: relative;
     transform: rotate(7deg) scale(.9);
     z-index: 1;
 }
@@ -84,6 +84,7 @@ h2 {
     transform: rotate(-10deg) scale(.9);
     z-index: 0;
     right: 1rem;
+    top: -1rem;
 }
 
 .polaroid-frame img {
@@ -109,31 +110,18 @@ h2 {
 
 /*  ----------------  hero js animation  --------------------   */
 
-.polaroid-frame-shadow {
-    transform: scale(1.1);
-    box-shadow: 1rem 1rem 1rem 1rem rgba(84, 84, 84, .5);
-    transition: 1.2s ease-out;
-}
 
-.polaroid-frame-movement {
-    left: 70px;
-    transition: 1.2s ease-out;
-
-}
-
-.z {
-    z-index: 5;
-}
 
 /*  ----------------  sub hero image text/filler  --------------------   */
 
 .sub-hero-frame{
-    font-weight: 600;
-    font-family: "Caveat", sans-serif;
-    font-size: 2rem;
+    font-family: "Special Elite", sans-serif;
     background-color:#010203;
     text-align: center;
     color: #fff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .sub-hero-img img {
@@ -153,18 +141,18 @@ h2 {
 
 .sub-hero-frame button {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /*  ----------------  sub hero button  --------------------   */
 
 .custom-sub-hero-button {
     padding: .5rem 1rem;
-    background-color: #9B3939;
-    border: outset .5rem #64a225;
+    background-color: rgba(0, 0, 0, .25);
+    border: outset .5rem rgb(218, 33, 33);
     border-radius: 1rem;
-    color: #010203;
+    color: rgb(218, 33, 33);
     transition: 1s;
-
 }
 
 .custom-sub-hero-button:hover {
@@ -172,7 +160,15 @@ h2 {
     color: #010203;
 }
 
-/*  ----------------  sub hero background image   --------------------   */
+/*  ----------------  sub hero background image and filter  --------------------   */
+
+.sub-hero-background-1,
+.sub-hero-background-2,
+.sub-hero-background-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .sub-hero-background-1 {
     background-image: url("../images/sub-hero-background-1.jpg");
@@ -185,14 +181,13 @@ h2 {
 
 .sub-hero-background-2 {
     background-image: url("../images/sub-hero-background-2.jpg");
-    background-color: rgba(0, 0, 0, .25);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
 }
 
 .sub-hero-background-2 div {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .60);
     min-height: 100%;
+}
+
+.sub-hero-background-3 {
+    background-image: url("../images/sub-hero-1.jpg");
 }
