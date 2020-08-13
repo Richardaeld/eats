@@ -23,6 +23,11 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+
+h1,
+h2 {
+    font-weight: 700;
+}
 /*  ----------------  navbar  --------------------   */
 
 .navbar-padding{
@@ -43,7 +48,7 @@ body {
     position: relative;
     top: 3rem;
     margin-top: 2rem;
-    border: solid 1px #000;
+    border: solid 1px #rgb(84, 84, 84);
     background-color: #fff;
     padding-bottom: 2.5rem;
     text-align: center;
@@ -123,13 +128,71 @@ body {
 /*  ----------------  sub hero image text/filler  --------------------   */
 
 .sub-hero-frame{
+    font-weight: 600;
+    font-family: "Caveat", sans-serif;
+    font-size: 2rem;
     background-color:#010203;
     text-align: center;
     color: #fff;
-    font-family: "Rock + Salt", 'Courier New', Courier, monospace;
 }
 
 .sub-hero-img img {
     max-width: 100%;
     max-height: 35rem;
+}
+
+.sub-hero-frame h1,
+.sub-hero-frame h2,
+.sub-hero-frame p {
+    padding: 2rem 1rem ;
+}
+
+.sub-hero-frame h1 {
+    padding: 4rem;
+}
+
+.sub-hero-frame button {
+    margin-top: 2rem;
+}
+
+/*  ----------------  sub hero button  --------------------   */
+
+.custom-sub-hero-button {
+    padding: .5rem 1rem;
+    background-color: #9B3939;
+    border: outset .5rem #64a225;
+    border-radius: 1rem;
+    color: #010203;
+    transition: 1s;
+
+}
+
+.custom-sub-hero-button:hover {
+    background-color: #fff;
+    color: #010203;
+}
+
+/*  ----------------  sub hero background image   --------------------   */
+
+.sub-hero-background-1 {
+    background-image: url("../images/sub-hero-background-1.jpg");
+}
+
+.sub-hero-background-1 div {
+    background-color: rgba(0, 0, 0, .5);
+    min-height: 100%;
+}
+
+.sub-hero-background-2 {
+    background-image: url("../images/sub-hero-background-2.jpg");
+    background-color: rgba(0, 0, 0, .25);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.sub-hero-background-2 div {
+    background-color: rgba(0, 0, 0, .5);
+    min-height: 100%;
 }
