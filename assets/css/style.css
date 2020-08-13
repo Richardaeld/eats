@@ -26,7 +26,7 @@ body {
 /*  ----------------  navbar  --------------------   */
 
 .navbar-padding{
-    height: 6rem
+    height: 5.5rem
 }
 
 .custom_navbar {
@@ -45,7 +45,7 @@ body {
     margin-top: 2rem;
     border: solid 1px #000;
     background-color: #fff;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
     text-align: center;
     box-shadow: .25rem .25rem .25rem .25rem rgba(84, 84, 84, .5); /*#545454*/
     transition: 1s ease-in-out;
@@ -55,29 +55,30 @@ body {
     background-image: url("../images/hero-background.jpg");
     background-position: center;
     background-repeat: repeat;
+    height: 40rem;
 }
 
 .polaroid-trans-1{
-    transform: rotate(16deg);
+    transform: rotate(16deg) scale(.9);
     z-index: 0;
 }
 
 .polaroid-trans-2{
-    transform: rotate(-8deg);
+    transform: rotate(-4deg) scale(.9);
     z-index: 1;
 }
 
 .polaroid-trans-3{
     position: relative;
-    right: 30px;
-    transform: rotate(10deg);
+    transform: rotate(7deg) scale(.9);
     z-index: 1;
 }
 
 .polaroid-trans-4{
     position: relative;
-    transform: rotate(-5deg);
+    transform: rotate(-10deg) scale(.9);
     z-index: 0;
+    right: 1rem;
 }
 
 .polaroid-frame img {
@@ -117,4 +118,18 @@ body {
 
 .z {
     z-index: 5;
+}
+
+/*  ----------------  sub hero image text/filler  --------------------   */
+
+.sub-hero-frame{
+    background-color:#010203;
+    text-align: center;
+    color: #fff;
+    font-family: "Rock + Salt", 'Courier New', Courier, monospace;
+}
+
+.sub-hero-img img {
+    max-width: 100%;
+    max-height: 35rem;
 }
