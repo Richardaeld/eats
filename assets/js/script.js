@@ -41,12 +41,16 @@ $(".polaroid-trans-1").mouseenter(function() {
     $(".polaroid-trans-1").css("transform", "scale(1.1)");
     $(".polaroid-trans-1").css("box-shadow", "1rem 1rem 1rem 1rem rgba(84, 84, 84, .5)");
     $(".polaroid-trans-2").css("transform", "translate(100px) rotate(-8deg)");
+    $(".polaroid-trans-3").css("transform", "translate(100px, 50px) rotate(10deg)");
+    $(".polaroid-trans-4").css("transform", "translate(100px) rotate(-5deg)");
 });
 
 $(".polaroid-trans-1").mouseleave(function() {
     $(".polaroid-trans-1").css("transform", "scale(1.0) rotate(16deg)");
     $(".polaroid-trans-1").css("box-shadow", ".25rem .25rem .25rem .25rem rgba(84, 84, 84, .5)");
     $(".polaroid-trans-2").css("transform", "translate(0px) rotate(-8deg)");
+    $(".polaroid-trans-3").css("transform", "translate(0px, -1px) rotate(10deg)");
+    $(".polaroid-trans-4").css("transform", "translate(0px) rotate(-5deg)");
 });
 
 //--------------- float picture 2
@@ -74,5 +78,18 @@ $(".polaroid-trans-3").mouseenter(function() {
 $(".polaroid-trans-3").mouseleave(function() {
     $(".polaroid-trans-3").css("transform", "scale(1.0) rotate(10deg)");
     $(".polaroid-trans-3").css("box-shadow", ".25rem .25rem .25rem .25rem rgba(84, 84, 84, .5)");
+    $(".polaroid-trans-2").css("transform", "translate(0px) rotate(-8deg)");
+});
+
+//--------------- float picture 4
+$(".polaroid-trans-4").mouseenter(function() {
+    $(".polaroid-trans-4").css("transform", "scale(1.1)");
+    $(".polaroid-trans-4").css("box-shadow", "1rem 1rem 1rem 1rem rgba(84, 84, 84, .5)");
+    $(".polaroid-trans-2").css("transform", "translate(-100px) rotate(-8deg)");
+});
+
+$(".polaroid-trans-4").mouseleave(function() {
+    $(".polaroid-trans-4").css("transform", "scale(1.0) rotate(10deg)");
+    $(".polaroid-trans-4").css("box-shadow", ".25rem .25rem .25rem .25rem rgba(84, 84, 84, .5)");
     $(".polaroid-trans-2").css("transform", "translate(0px) rotate(-8deg)");
 });

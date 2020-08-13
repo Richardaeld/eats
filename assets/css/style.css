@@ -54,8 +54,7 @@ body {
 .hero-background { /* removed  or not ?*/
     background-image: url("../images/hero-background.jpg");
     background-position: center;
-    background-size: cover;
-    height: 800px;
+    background-repeat: repeat;
 }
 
 .polaroid-trans-1{
@@ -72,6 +71,12 @@ body {
     position: relative;
     right: 30px;
     transform: rotate(10deg);
+    z-index: 1;
+}
+
+.polaroid-trans-4{
+    position: relative;
+    transform: rotate(-5deg);
     z-index: 0;
 }
 
@@ -84,14 +89,14 @@ body {
 
 .polaroid-frame p {
     font-family: "Caveat", sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-right: 1rem;
     padding-left: 1rem;
 }
 
 @media (min-width: 1200px) {  
     .polaroid-frame p {
-        font-size: 3rem;
+        font-size: 2rem;
 
     }
 }
