@@ -15,16 +15,9 @@ $(".polaroid-trans-1").on("mouseenter", function(){
 // -----------z-index for hero pictures 2
 $(".polaroid-trans-2").on("mouseenter", function(){
      time = setTimeout(function() {
-         var z_index;
-         if ($(".polaroid-trans-2").css("z-index") < $(".polaroid-trans-3").css("z-index")) { // checks z lvl
-          z_index = parseInt($(".polaroid-trans-3").css("z-index")) + 1; 
-          $(".polaroid-trans-2").css("z-index", z_index); 
-         }
-        if ($(".polaroid-trans-2").css("z-index") < $(".polaroid-trans-1").css("z-index")) { // checks z lvl
-          z_index = parseInt($(".polaroid-trans-1").css("z-index")) + 1; 
-          $(".polaroid-trans-2").css("z-index", z_index); 
-         }
-
+        $(".polaroid-trans-1").css("z-index", "0")
+        $(".polaroid-trans-2").css("z-index", "1")
+        $(".polaroid-trans-3").css("z-index", "0")
         }, 200);     
 }).on("mouseleave", function() {
     clearTimeout(time);
