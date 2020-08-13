@@ -163,13 +163,18 @@ h2 {
 /*  ----------------  sub hero background image and filter  --------------------   */
 
 .sub-hero-background-1,
-.sub-hero-background-2,
-.sub-hero-background-3 {
+.sub-hero-background-3,
+.sub-hero-background-4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 25rem;
 }
 
+.sub-hero-background-2 {
+    background-repeat: no-repeat;
+}
+revoc ,
 .sub-hero-background-1 {
     background-image: url("../images/sub-hero-background-1.jpg");
 }
@@ -180,14 +185,50 @@ h2 {
 }
 
 .sub-hero-background-2 {
+    position: relative;
+}
+
+.sub-hero-background-2 p,
+.sub-hero-background-2 span {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.sub-hero-background-2 p {
+    padding: 1rem .5rem; 
+}
+
+.sub-hero-background-2 span {
+    padding: 3rem .5rem; 
+}
+
+.sub-hero-background-2 {
     background-image: url("../images/sub-hero-background-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sub-hero-background-2 div {
-    background-color: rgba(0, 0, 0, .60);
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .25);
     min-height: 100%;
 }
 
 .sub-hero-background-3 {
-    background-image: url("../images/sub-hero-1.jpg");
+    background-image: url("../images/sub-hero-background-3.jpg");
 }
+
+.sub-hero-background-4 {
+    background-image: url("../images/sub-hero-background-4.jpg");
+}
+
+.sub-hero-background-4 div {
+    background-color: rgba(0, 0, 0, .60);
+    min-height: 100%;
+}
+
+/*  ----------------  sub hero background image and filter  --------------------   */
