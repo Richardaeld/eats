@@ -6,9 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');   
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 
 /*  ----------------  general  --------------------   */
@@ -405,4 +408,82 @@ footer h1 {
     left: 1rem;
     transition: 1s;
     color: #fff;
+}
+
+/*  ----------------  footer form --------------------   */
+
+hr {
+    width: 50%;
+}
+
+.menu-frame {
+    text-align: center;
+    color: #fff;
+    background-image: url("../images/menu-background.jpg");
+    border: solid 1px #010203;
+    box-shadow: .5rem .5rem .5rem .5rem rgb(56, 56, 56);
+    margin-bottom: 2rem;
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.menu-img-1,
+.menu-img-2,
+.menu-img-3,
+.menu-img-4 {
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.menu-img-1 {
+    background-image: url("../images/menu-1.jpg");
+}
+
+.menu-img-2 {
+    background-image: url("../images/carousel/jerkchicken.jpg");
+}
+
+.menu-img-3 {
+    background-image: url("../images/menu-3.jpg");
+}
+
+#menu {
+    background-color: rgb(112, 112, 112);
+    margin-top: 5rem;
+}
+
+.menu-frame h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.menu-frame h4 {
+    color: rgba(202, 26, 26, 0.473);
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.menu-header {
+    padding-top: 1.5rem;
+    text-decoration: underline;
+    color: rgba(202, 26, 26, 0.473);
+}
+
+.menu-name-header {
+    color: rgba(202, 26, 26, 0.473);
+}
+
+.meat-line {
+    padding-top: 2rem;
+}
+
+.menu-food {
+
+}
+
+.menu-price {
+
 }
