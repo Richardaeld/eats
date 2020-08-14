@@ -458,13 +458,14 @@ hr {
 }
 
 .menu-frame h1 {
+    color: rgb(173, 15, 15);
     font-size: 4rem;
     font-weight: 500;
 }
 
 .menu-frame h4 {
-    color: rgba(202, 26, 26, 0.473);
-    font-size: 2rem;
+    color: rgb(173, 15, 15);
+    font-size: 2.5rem;
     text-decoration: underline;
 }
 
@@ -475,7 +476,7 @@ hr {
 }
 
 .menu-name-header {
-    color: rgba(202, 26, 26, 0.473);
+    color: rgba(190, 30, 230, 0.692);
 }
 
 .meat-line {
