@@ -248,7 +248,16 @@ revoc ,
     background-size: 15vw;
 }
 
+/*  ----------------  google maps  --------------------   */
 
+.google-maps {
+    text-align: center;
+    background-color: #010203;
+}
+
+.google-maps iframe {
+    width: 80vw !important;
+}
 
 /*  ----------------  footer  --------------------   */
 
