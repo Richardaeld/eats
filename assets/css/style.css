@@ -238,6 +238,8 @@ revoc ,
     width: 50rem;
     text-align: center;
     max-width: 70vw;
+    border: solid 2px #fff;
+    border-radius: 15%
 }
 
 .food-carousel {
@@ -256,7 +258,9 @@ revoc ,
 }
 
 .google-maps iframe {
-    width: 80vw !important;
+    width: 67vw !important;
+    border: solid 2px #fff;
+    border-radius: 15%
 }
 
 /*  ----------------  footer  --------------------   */
