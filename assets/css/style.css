@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');   
 
@@ -423,7 +425,7 @@ hr {
     border: solid 1px #010203;
     box-shadow: .5rem .5rem .5rem .5rem rgb(56, 56, 56);
     margin-bottom: 2rem;
-    font-family: "Gloria Hallelujah", sans-serif;
+    font-family: "Gochi Hand", sans-serif;
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -443,7 +445,7 @@ hr {
 }
 
 .menu-img-2 {
-    background-image: url("../images/carousel/jerkchicken.jpg");
+    background-image: url("../images/jerkchicken.png");
 }
 
 .menu-img-3 {
@@ -469,7 +471,7 @@ hr {
 .menu-header {
     padding-top: 1.5rem;
     text-decoration: underline;
-    color: rgba(202, 26, 26, 0.473);
+    color: rgba(164, 202, 26, 0.473);
 }
 
 .menu-name-header {
