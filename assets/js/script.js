@@ -121,3 +121,11 @@ $(".polaroid-trans-4").mouseleave(function() {
     $(".polaroid-trans-2").css("transform", "translate(0px) rotate(-4deg) scale(.9)");
     $(".polaroid-trans-3").css("transform", "translate(0px) rotate(7deg) scale(.9)");
 });
+
+$(".social-1, .social-2, .social-3").mouseenter(function() {
+    $(this).css("transform", "scale(1.2");
+});
+
+$(".social-1, .social-2, .social-3").mouseleave(function() {
+    $(this).css("transform", "scale(1)");
+});

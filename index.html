@@ -7,7 +7,9 @@
     <title>Eats</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css" />
+
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 </head>
 <body>
@@ -153,22 +155,75 @@
 
 <footer>
     <div class="row no-gutters">
-        <div class="col-xl-4 col-md-6 col-12">
+        <div class="col-xl-4 col-md-6 col-12 footer-contact">
             <h1>Contact us</h1>
-            <p>Phone</p>
-            <span><i class="fa fa-phone"></i>404-888-9149</span>
-            <p>Hours</p>
-            <span><i class="fa fa-clock"></i>12Pm-8pm everyday</span>
-            <p>street</p>
-            <span><i class="fa fa-location-arrow"></i>600 ponce de leon ave</span>
-            <span>atlanta, ga 30308</span>
+            
+            <div class="contact-type">
+            <span><i class="fa fa-phone"></i> Phone:</span>
+            </div>
+
+            <div class="contact-method">
+                <a href="tel:1-404-888-9149">
+                    <p>404-888-9149</p>
+                </a>
+            </div>
+
+            <div class="contact-type">
+            <span><i class="fa fa-calendar"></i> Hours:</span>
+            </div>
+
+            <div class="contact-method">
+            <p>12pm - 8pm everyday</p>
+            </div>
+
+            <div class="contact-type">
+            <span><i class="fa fa-location-arrow"></i> Address:</span>
+            </div>
+
+            <div class="contact-method">
+                <a href="https://www.google.com/maps/place/Eats/@33.7737074,-84.3693859,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50410d7981077:0x526b24b3a0dafd30!8m2!3d33.773703!4d-84.3671972" target="_blank">
+                    <p>600 ponce de leon ave</p>
+                    <p>atlanta, ga 30308</p>
+                </a>
+            </div>
 
         </div>
-        <div class="col-xl-4 col-md-6 col-12">
-
+        <div class="col-xl-4 col-md-6 col-12 footer-form">
+            <h1>Have a question for us?</h1>
+            <form>
+            <div class="form-group">
+                <label for="name" class="invisible">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="invisible">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="invisible">Phone</label>
+                <input type="number" class="form-control" id="phone" placeholder="Phone" required>
+            </div>
+            <div class="form-group">
+                <label for="user_input" class="invisible">Questions</label>
+                <textarea class="form-control" id="form_input" rows="3">What can we help you with?</textarea>
+            </div>
+            </form>
         </div>
-        <div class="col-xl-4 col-md-6 col-12">
+        <div class="col-xl-4 col-md-6 col-12 footer-social">
             <h1>Our Social Media Links</h1>
+ 
+            <ul class="list-inline">
+                <li class="list-inline-item social-1">
+                    <a href="https://www.facebook.com/eatsrestaurant/"><i class="fa fa-facebook-square"></i></a>
+                </li>
+                <li class="list-inline-item social-2">
+                    <a href="https://twitter.com/tweetedeats"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item social-3">
+                    <a href="https://www.instagram.com/eats_on_ponce/"><i class="fa fa-instagram"></i></a>
+               </li>
+            </ul>
+ 
         </div>
     </div>
 </footer>
