@@ -122,10 +122,79 @@ $(".polaroid-trans-4").mouseleave(function() {
     $(".polaroid-trans-3").css("transform", "translate(0px) rotate(7deg) scale(.9)");
 });
 
+//--------------social link function scale
+
 $(".social-1, .social-2, .social-3").mouseenter(function() {
     $(this).css("transform", "scale(1.2");
 });
 
 $(".social-1, .social-2, .social-3").mouseleave(function() {
     $(this).css("transform", "scale(1)");
+});
+
+//--------------photo.gallery 
+
+//$(document).ready(function() {
+//    $(".gallery-a").hide();
+//    $(".gallery-b").hide();
+//    $(".gallery-c").hide();
+//    $(".gallery-d").hide();
+//});
+
+
+$("#picture-1").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/friends/friends-1.jpg')");
+});
+
+$("#picture-2").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/family/family-8.jpg')");
+});
+
+$("#picture-3").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/friends/friends-3.jpg')");
+
+});
+
+$("#picture-4").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/family/family-3.jpg')");
+});
+
+$("#picture-5").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/family/family-10.jpg')");
+});
+
+$("#picture-6").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/family/family-1.jpg')");
+});
+
+$("#picture-7").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/food/food-10.jpg')");
+});
+
+$("#picture-8").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/awards/awards-3.jpg')");
+});
+
+$("#picture-9").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/food/food-1.jpg')");
+});
+
+$("#picture-10").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/food/food-2.jpg')");
+});
+
+$("#picture-11").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/food/food-3.jpg')");
+});
+
+$("#picture-12").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/food/food-5.jpg')");
+});
+
+$("#picture-13").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/food/food-8.jpg')");
+});
+
+$("#picture-14").click(function(){
+    $("#picture-frame").css("background-image", "url('assets/images/friends/friends-2.jpg')");
 });
