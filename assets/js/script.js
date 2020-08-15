@@ -132,16 +132,20 @@ $(".social-1, .social-2, .social-3").mouseleave(function() {
     $(this).css("transform", "scale(1)");
 });
 
+//-------------- location toggle
+$(document).ready(function() {
+    $("#location").hide();
+});
+
+$("#maps-tog").click(function() {
+    $("#location").toggle();
+});
+
+$(".js-location").click(function() {
+    $("#location").toggle();
+});
+
 //--------------photo.gallery 
-
-//$(document).ready(function() {
-//    $(".gallery-a").hide();
-//    $(".gallery-b").hide();
-//    $(".gallery-c").hide();
-//    $(".gallery-d").hide();
-//});
-
-
 $("#picture-1").click(function(){
     $("#picture-frame").css("background-image", "url('assets/images/friends/friends-1.jpg')");
 });

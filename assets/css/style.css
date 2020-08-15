@@ -32,7 +32,15 @@ h2 {
 }
 
 .custom_navbar {
-    background-color: rgba(0, 0, 0, .75) !important;    
+    background-color: rgba(0, 0, 0, .75) !important; 
+}
+
+#top,
+#about-us,
+#photos,
+#location,
+#contact {
+    scroll-margin-top: 5rem;
 }
 
 /*  ----------------  hero  --------------------   */
@@ -303,7 +311,7 @@ revoc ,
 }
 
 #photos {
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     background-color: #f5f2d0;
     background-repeat: no-repeat;
     background-size: auto;
