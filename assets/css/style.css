@@ -514,7 +514,6 @@ hr {
 
 
 .menu-img-1,
-.menu-img-2,
 .menu-img-3,
 .menu-img-4 {
     background-size: contain;
@@ -523,11 +522,13 @@ hr {
 }
 
 .menu-img-1 {
-    background-image: url("../images/menu-1.jpg");
+    /*background-image: url("../images/menu-1.jpg");*/
+   text-align: center;
 }
 
 .menu-img-2 {
-    background-image: url("../images/jerkchicken.png");
+   /* background-image: url("../images/jerkchicken.png");*/
+   text-align: center;
 }
 
 .menu-img-3 {
@@ -557,8 +558,13 @@ hr {
 
 .menu-header {
     padding-top: 1.5rem;
-    text-decoration: underline;
     color: rgba(164, 202, 26, 0.473);
+}
+
+.menu-header h1,
+.menu-header span {
+    text-decoration: underline;
+
 }
 
 .menu-name-header {
@@ -617,7 +623,14 @@ hr {
     padding-top: 1.5rem;
 }
 
+.price {
+    color: #fff;
+}
 
-
+#la-carte {
+    color: #fff;
+    text-decoration-color: #010203;
+    text-decoration: none;
+}
 /*---------------------  modal -----------------------------*/
 
