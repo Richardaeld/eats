@@ -34,14 +34,14 @@
       <li class="nav-item">
         <a class="nav-link" href="index.html#photos">Photos</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index.html#location">Location</a>
+      <li class="nav-item js-location">
+        <a class="nav-link" href="#location">Location</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.html#contact">Contact Us</a>
+        <a class="nav-link" href="#contact">Contact Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Menu</a>
+        <a class="nav-link" href="#top">Menu</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Catering</a>
@@ -50,9 +50,9 @@
   </div>
 </nav>
 
-<section class="row no-gutters justify-content-center">
+<section id="top" class="row no-gutters justify-content-center">
         <div id="menu" class="col-12 navbar-padding"></div>
-    <div class="col-8 menu-frame">
+    <div class="col-12 col-md-8 menu-frame">
     <header class="row no-gutters justify-content-center">
         <div class="col-10 menu-header ">
             <h1>menu</h1>
@@ -62,7 +62,7 @@
     </header>
 
     <article class="row no-gutters justify-content-center meat-line">
-        <div class="col-6">
+        <div class="col-6 menu-name-price">
             <h4>meat - <span>$5.25</span></h4>
             <hr>
             <p>1/2 Jerk Chicken</p>
@@ -83,62 +83,113 @@
     
 
     
-        <div class="col-6 veggie-line">
+        <div class="col-6 veggie-line menu-name-price">
             <h4>Veggies + Sides <span>$2.50</span></h4>
             <hr>
-            <div class="row no-gutters justify-content-center">
-                <div class="col-3">
-                    <p>Black Beans</p>
-                    <p>White Rice</p>
-                    <p>Collard Greens</p>
-                    <p>Black-Eye Peas</p>
-                    <p>Green Beans</p>
-                </div>
-                <div class="col-3">
-                    <p>Mash Potatoes & Gravy</p>
-                    <p>Corn on the Cob</p>
-                    <p>Broccoli Casserole</p>
-                    <p>Sweet Potato</p>
-                    <p>Mac & Cheese</p>
-                    <p>Side Salad</p>
-                </div>  
+
+            <div class="menu-name">
+                <span>Black Beans</span>
             </div>
+            <div class="menu-value">
+                <p>Mash Potatoes & Gravy</p>
+            </div> 
+
+            <div class="menu-name">
+                <span>White Rice</span>
+            </div>
+            <div class="menu-value">
+                <p>Corn on the Cob</p>
+            </div> 
+
+            <div class="menu-name">
+                <span>Collard Greens</span>
+            </div>
+            <div class="menu-value">
+                <p>Broccoli Casserole</p>
+            </div> 
+
+            <div class="menu-name">
+                <span>Black-Eye</span>
+            </div>
+            <div class="menu-value">
+                <p>Sweet Potato</p>
+            </div> 
+
+            <div class="menu-name">
+                <span>Green Beans</span>
+            </div>
+            <div class="menu-value">
+                <p>Mac & Cheese</p>
+            </div> 
+
+            <div class="menu-name">
+                <span>Side Salad</span>
+            </div>
+            <div class="menu-value">
+                <p></p>
+            </div> 
+
         </div>
     </article>
 
     <article class="row no-gutters">
-            <div class="col-6">
+            <div class="col-6 menu-name-price">
                 <h4>Special - <span>$8.50</span></h4>
                 <hr>
                 <p>Any Meat + Black Beans, Rice, & Cornbread</p>
             </div>
 
-            <div class="col-6">
+            <div class="col-6 menu-name-price">
                 <h4>Extras</h4>
                 <hr>
-                <div class="row no-gutters justify-content-center">
-                    <div class="col-4 extra-line">
-                        <p>Homemade Brownie</p>
-                        <p>Sour Cream</p>
-                        <p>Cornbread</p>
-                        <p>Garlic Bread</p>
-                        <p>4 oz BBQ Sauce</p>
-                        <p>Gravey</p>
-                    </div>
-                    <div class="col-2 erase-shadow">
-                        <p>$1.75</p>
-                        <p>$0.25</p>
-                        <p>$0.50</p>
-                        <p>$0.50</p>
-                        <p>$0.25</p>
-                        <p>Free</p>
-                    </div>
+
+                <div class="menu-name">
+                    <span>Home-made Brownie</span>
                 </div>
+                <div class="menu-value">
+                    <p>$1.75</p>
+                </div> 
+
+                <div class="menu-name">
+                    <span>Sour Cream</span>
+                </div>
+                <div class="menu-value">
+                    <p>$0.25</p>
+                </div> 
+
+                <div class="menu-name">
+                    <span>Cornbread</span>
+                </div>
+                <div class="menu-value">
+                    <p>$0.50</p>
+                </div> 
+
+                <div class="menu-name">
+                    <span>Garlic Bread</span>
+                </div>
+                <div class="menu-value">
+                    <p>$0.50</p>
+                </div> 
+
+                <div class="menu-name">
+                    <span>4 oz BBQ Sauce</span>
+                </div>
+                <div class="menu-value">
+                    <p>$0.50</p>
+                </div> 
+
+                <div class="menu-name">
+                    <span>Gravy</span>
+                </div>
+                <div class="menu-value">
+                    <p>Free</p>
+                </div> 
+
             </div>
     </article>
 
     <article class="row no-gutters justify-content-center">
-        <div class="col-6">
+        <div class="col-6 pasta-line menu-name-price">
             <h4>Pasta - <span>$9.00</span></h4>
             <hr>
             <p>Chicken + Salad + Garlic Bread</p>
@@ -150,52 +201,112 @@
     </article>
 
     <article class="row no-gutters">
-        <div class="col-6">
+        <div class="col-6 menu-name-price drinks-line">
             <h4>Drinks</h4>
             <hr>
-            <div class="row no-gutters justify-content-center">
-                <div class="col-3">
-                    <p>Can Soda</p>
-                    <p>Tea</p>
-                    <p>Bottle Drinks</p>
-                </div>
-                <div class="col-3">
-                    <p>$1.50</p>
-                    <p>$1.50</p>
-                    <p>$1.75</p>
-                </div>
+
+            <div class="menu-name">
+                <span>Can Soda</span>
             </div>
+            <div class="menu-value">
+                <p>$1.50</p>
+            </div> 
+
+            <div class="menu-name">
+                <span>Tea</span>
+            </div>
+            <div class="menu-value">
+                <p>$1.50</p>
+            </div> 
+
+            <div class="menu-name">
+                <span>Bottle Drinks</span>
+            </div>
+            <div class="menu-value">
+                <p>$1.75</p>
+            </div> 
+
         </div>
 
-        <div class="col-6">
+        <div class="col-6 beer-line menu-name-price">
             <h4>Beer</h4>
             <hr>
-            <div class="row no-gutters justify-content-center">
-                <div class="col-3">
-                    <p>Pabst Blue Ribbon</p>
-                    <p>Bud Light</p>
-                    <p>Yuengling</p>
-                    <p>Night on Ponce</p>
-                    <p>Heineken</p>
-                    <p>Red Stripe</p>
-                    <p>Bells Two Hearted Ale</p>
-                    <p>Emergency Beer</p>
-                </div>
-                <div class="col-3">
-                    <p>$2.75</p>
-                    <p>$2.75</p>
-                    <p>$2.75</p>
-                    <p>$3.75</p>
-                    <p>$3.75</p>
-                    <p>$3.75</p>
-                    <p>$3.75</p>
-                    <p>$3.75</p>
-                </div>
+
+            <div class="menu-name">
+                <span>Pabst Blue Ribbon</span>
             </div>
-        </div>    
+            <div class="menu-value">
+                <p>$2.75</p>
+            </div>
+
+            <div class="menu-name">
+                <span>Bud Light</span>
+            </div>
+            <div class="menu-value">
+                <p>$2.75</p>
+            </div>            
+            
+            <div class="menu-name">
+                <span>Yuengling</span>
+            </div>
+            <div class="menu-value">
+                <p>$2.75</p>
+            </div>
+
+            <div class="menu-name">
+                <span>Night on Ponce</span>
+            </div>
+            <div class="menu-value">
+                <p>$3.75</p>
+            </div>            
+            
+            <div class="menu-name">
+                <span>Heineken</span>
+            </div>
+            <div class="menu-value">
+                <p>$3.75</p>
+            </div>
+
+            <div class="menu-name">
+                <span>Red Stripe</span>
+            </div>
+            <div class="menu-value">
+                <p>$3.75</p>
+            </div>            
+            
+            <div class="menu-name">
+                <span>Bells Two Hearted Ale</span>
+            </div>
+            <div class="menu-value">
+                <p>$3.75</p>
+            </div>            
+            
+            <div class="menu-name">
+                <span>Emergency Beer</span>
+            </div>
+
+            <div class="menu-value">
+                <p>$3.75</p>
+            </div>
+
+
+        </div>
     </article>
 </div>
 </section>
+
+<!---------------             google maps            -------------------->
+
+<section>
+    <div id="location" class="row no-gutters justify-content-center">
+        <div class="col-12 google-maps food-carousel">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.495228993747!2d-84.3693858844224!3d33.773707439803474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50410d7981077%3A0x526b24b3a0dafd30!2sEats!5e0!3m2!1sen!2sus!4v1597372536695!5m2!1sen!2sus" width="100vw" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+</div>
+    </div>
+
+</section>
+
+<!---------------             footer            -------------------->
 
 <footer>
     <div class="row no-gutters">
@@ -229,6 +340,9 @@
                     <p>600 ponce de leon ave</p>
                     <p>atlanta, ga 30308</p>
                 </a>
+                    <p>
+                    <a href="#location"><button id="maps-tog" class="custom-sub-hero-button">View Google Maps</button></a>
+                    </p>
             </div>
 
         </div>
@@ -277,6 +391,7 @@
  
         </div>
     </div>
+    
 </footer>
    	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

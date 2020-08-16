@@ -583,12 +583,36 @@ hr {
     color: rgb(129, 214, 253);
 }
 
-.menu-food {
-
+.pasta-line {
+    color: rgb(174, 38, 201)
 }
 
-.menu-price {
+.drinks-line {
+    color: rgb(15, 173, 165)
+}
 
+.beer-line {
+    color: rgb(212, 122, 38);
+}
+
+.menu-name {
+    display: inline-block;
+    margin: 0;
+    width: 70%;
+}
+
+.menu-value {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    width: 25%;
+    text-decoration: none;
+}
+
+.menu-name-price {
+    text-shadow: .2rem .2rem .2rem rgba(0, 0, 0, .5);
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 
