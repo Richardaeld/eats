@@ -132,6 +132,12 @@ $(".social-1, .social-2, .social-3").mouseleave(function() {
     $(this).css("transform", "scale(1)");
 });
 
+//------------------navbar focus
+
+$("#photos").focus(function() {
+    $(".photos-nav").addClass("active");
+});
+
 //-------------- location toggle hide and menu list color
 $(document).ready(function() {
     $("#location").hide();
