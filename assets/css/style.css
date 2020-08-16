@@ -39,7 +39,8 @@ h2 {
 #about-us,
 #photos,
 #location,
-#contact {
+#contact,
+#time-open {
     scroll-margin-top: 5rem;
 }
 
@@ -65,13 +66,13 @@ h2 {
 
 .polaroid-trans-1{
     transform: rotate(16deg) scale(.9);
-    z-index: 0;
+    z-index: 1;
 }
 
 .polaroid-trans-2{
     position: relative;
     transform: rotate(-4deg) scale(.9);
-    z-index: 1;
+    z-index: 0;
     top: -1rem;
 }
 
@@ -94,7 +95,7 @@ h2 {
     max-height: 100%;
     box-shadow: 1px 1px 2px 1px #d6d6d6;
 }
-
+.polaroid-frame span,
 .polaroid-frame p {
     font-family: "Caveat", sans-serif;
     font-size: 1.5rem;
@@ -107,6 +108,9 @@ h2 {
         font-size: 2rem;
 
     }
+}
+
+.hours p {
 }
 
 /*  ----------------  hero js animation  --------------------   */
@@ -231,6 +235,14 @@ revoc ,
     background-color: rgba(0, 0, 0, .60);
     min-height: 100%;
 }
+
+#time-open {
+    font-size: 2rem;
+    text-shadow: .25rem .25rem .5rem #fff;
+    text-decoration: underline;
+}
+
+
 /*  ----------------  food carousel  --------------------   */
 
 .photo-base {
