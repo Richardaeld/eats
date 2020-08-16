@@ -135,6 +135,25 @@ $(".social-1, .social-2, .social-3").mouseleave(function() {
 //-------------- location toggle
 $(document).ready(function() {
     $("#location").hide();
+    $(".veggie-line  div:even").css("color", "#86f00f");
+    $(".veggie-line  div:odd").css("color", "#0ff0ea");
+    $(".meat-line  p:even").css("color", "#86f00f");
+    $(".meat-line  p:odd").css("color", "#0ff0ea");
+
+    $(".extras-line  span:even").css("color", "#86f00f");
+    $(".extras-line  span:odd").css("color", "#0ff0ea");
+    $(".extras-line  p:even").css("color", "#86f00f");
+    $(".extras-line  p:odd").css("color", "#0ff0ea");
+
+    $(".drinks-line  span:even").css("color", "#86f00f");
+    $(".drinks-line  span:odd").css("color", "#0ff0ea");
+    $(".drinks-line  p:even").css("color", "#86f00f");
+    $(".drinks-line  p:odd").css("color", "#0ff0ea");
+
+    $(".beer-line  span:even").css("color", "#86f00f");
+    $(".beer-line  span:odd").css("color", "#0ff0ea");
+    $(".beer-line  p:even").css("color", "#86f00f");
+    $(".beer-line  p:odd").css("color", "#0ff0ea");
 });
 
 $("#maps-tog").click(function() {

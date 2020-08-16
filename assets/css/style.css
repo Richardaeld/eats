@@ -510,7 +510,6 @@ hr {
 }
 
 .menu-frame span {
-    color: #fff;
 }
 
 
@@ -606,7 +605,13 @@ hr {
     vertical-align: top;
     margin: 0;
     width: 25%;
-    text-decoration: none;
+}
+
+.menu-veg {
+    display: inline-block;
+    margin: 0;
+    width: 40%;
+    vertical-align: top;
 }
 
 .menu-name-price {
