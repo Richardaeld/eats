@@ -143,9 +143,9 @@ $(document).ready(function() {
     $(".meat-line  p:even").css("color", "#ff4545");
     $(".meat-line  p:odd").css("color", "#ffa245");
 
-    $(".extras-line  span:even").css("color", "#cefeff");
+    $(".extras-line  span:even").css("color", "#59BEFF");
     $(".extras-line  span:odd").css("color", "#cfceff");
-    $(".extras-line  p:even").css("color", "#cefeff");
+    $(".extras-line  p:even").css("color", "#59BEFF");
     $(".extras-line  p:odd").css("color", "#cfceff");
 
     $(".drinks-line  span:even").css("color", "#5ca8f9");
