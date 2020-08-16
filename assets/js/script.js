@@ -132,7 +132,7 @@ $(".social-1, .social-2, .social-3").mouseleave(function() {
     $(this).css("transform", "scale(1)");
 });
 
-//-------------- location toggle
+//-------------- location toggle hide and menu list color
 $(document).ready(function() {
     $("#location").hide();
     $(".veggie-line  div:even").css("color", "#86f00f");
